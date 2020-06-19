@@ -53,6 +53,31 @@ for number in generator:
 
 ---
 
+```python
+'''Solution by: underlineGalaxy
+'''
+class BySeven():
+
+  def bys(n):
+    for i in range(0, n):
+      if i % 7 == 0:
+        yield i        
+
+hundred = BySeven
+
+iterations = int(input())
+
+print(*hundred.bys(iterations))
+''' 
+This is the same as
+for i in hundred.bys(iterations):
+  print(i)
+'''
+
+```
+
+---
+
 # Question 21
 
 ### **Question:**
