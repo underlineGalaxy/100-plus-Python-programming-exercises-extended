@@ -83,6 +83,20 @@ print('The Original Tuple:',tp)
 
 ```
 
+**OR**
+
+```python
+
+'''
+Solution by: underlineGalaxy
+'''
+
+a = (1,2,3,4,5,6,7,8,9,10)
+
+print(a[:5], "\n", a[5:])
+
+```
+
 ---
 
 # Question 39
